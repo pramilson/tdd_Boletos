@@ -2,7 +2,7 @@ package pagamento;
 
 import org.junit.jupiter.api.Test;
 
-public class pagamentoFaturaTest {
+public class PagamentoFaturaTest {
 	
 	@Test
 	public void pagamentoFatura() {
