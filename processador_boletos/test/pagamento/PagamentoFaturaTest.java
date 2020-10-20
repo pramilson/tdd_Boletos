@@ -25,6 +25,7 @@ public class PagamentoFaturaTest {
 	boletos = new ArrayList<Boleto>();
 	boletos.add(boleto1);
 	boletos.add(boleto2);
+	boletos.add(boleto3);
 	}
 	@Test
 	public void pagamentoFatura() {
