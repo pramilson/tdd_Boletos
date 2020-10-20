@@ -19,7 +19,15 @@ public class PagamentoFatura {
 	}
 	
 	public void pagamentoFaturaPorBoleto() {
-		fat.setPaga(true);
+		double total =0;
+		for (Boleto bol : boletos) {
+			total +=bol.getValor();
+		}
+		
+		if (total >= fat.getValorTotal()) {
+			fat.setPaga(true);
+		}
+	
 	}
 	
 

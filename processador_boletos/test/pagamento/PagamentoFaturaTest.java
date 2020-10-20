@@ -24,6 +24,7 @@ public class PagamentoFaturaTest {
 	@BeforeEach
 	public void inicializa() {
 	boletos = new ArrayList<Boleto>();
+	boletos.add(boleto1);
 	
 	
 	}
