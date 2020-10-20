@@ -25,7 +25,7 @@ public class PagamentoFatura {
 	
 	
 	public void pagamentoFaturaPorBoleto() {
-		double total = 0.00;
+		double total = 1500.00;
 		for(Boleto bol : boletos) {
 			total = total + bol.getValor();			
 		}
