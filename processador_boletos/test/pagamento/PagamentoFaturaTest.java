@@ -21,6 +21,7 @@ public class PagamentoFaturaTest {
 	private PagamentoFatura pagamento1 = new PagamentoFatura("05/10/2020", boletos, fatura1);
 	
 	@BeforeEach
+	//Com 3 boletos não houve falhas
 	public void inicializa() {
 	boletos = new ArrayList<Boleto>();
 	boletos.add(boleto1);
