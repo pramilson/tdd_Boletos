@@ -18,6 +18,9 @@ public class PagamentoFatura {
 		this.fat = fat;
 	}
 	
+	public void pagamentoFaturaPorBoleto() {
+		fat.setPaga(true);
+	}
 	
 
 	public String getData() {

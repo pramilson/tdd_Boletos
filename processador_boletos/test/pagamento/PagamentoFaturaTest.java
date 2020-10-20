@@ -25,6 +25,7 @@ public class PagamentoFaturaTest {
 	public void inicializa() {
 	boletos = new ArrayList<Boleto>();
 	
+	
 	}
 	@Test
 	public void pagamentoFatura() {
